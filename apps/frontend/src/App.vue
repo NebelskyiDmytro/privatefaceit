@@ -38,7 +38,7 @@
                   {{ eventData.stats.kills }}
                 </p>
               </div>
-              <p class="w-full h-6 text-2xl font-bold text-center text-gray-50 uppercase stats-title">Kills</p>
+              <p class="w-full h-6 text-2xl font-bold text-center text-gray-50 uppercase stats-title">d1xonella Kills</p>
             </div>
             <div class="inline-flex flex-col space-y-2 items-start justify-start px-2">
               <div class="inline-flex items-center justify-end w-full h-1/2">
