@@ -47,6 +47,7 @@ export class FaceitService {
     const playerStats = userTeam.players.find((p) => p.player_id === userId).player_stats;
 
     return {
+      nickname: player.nickname,
       lvl: player.games.csgo.skill_level,
       elo: {
         current: player.games.csgo.faceit_elo,
