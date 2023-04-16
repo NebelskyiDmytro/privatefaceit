@@ -1,0 +1,309 @@
+{
+  transaction_id: '1214b1a0-fae6-47e2-b60f-6cfd0fc8b773',
+  event: 'match_status_ready',
+  event_id: '4217688a-b5bc-4d2f-a52b-5fbc30d037c0',
+  third_party_id: '3c967cc3-c691-4281-b0e0-fa2e271d1d43',
+  app_id: 'ff93a66e-9b97-4365-a0a5-28175c429295',
+  timestamp: '2021-09-23T20:54:52Z',
+  retry_count: 0,
+  version: 1,
+  payload: {
+    id: '1-c63f9ea6-770e-46b0-90c8-e852d8ccf7fc',
+    organizer_id: 'faceit',
+    region: 'EU',
+    game: 'csgo',
+    version: 16,
+    entity: {
+      id: 'a3c75828-7f0f-4940-adb9-994b4b389070',
+      name: 'CS:GO 5v5 PREMIUM',
+      type: 'matchmaking'
+    },
+    teams: [
+      {
+        id: 'ac71ba3c-d3d4-45e7-8be2-26aa3986867d',
+        name: 'team_s1mple',
+        type: '',
+        avatar: 'https://assets.faceit-cdn.net/avatars/ac71ba3c-d3d4-45e7-8be2-26aa3986867d_1581521810013.jpg',
+        leader_id: 'ac71ba3c-d3d4-45e7-8be2-26aa3986867d',
+        co_leader_id: '',
+        roster: [
+          {
+            id: '4db069d9-17af-4a69-952c-933d02f4071d',
+            nickname: 'des0ut',
+            avatar: 'https://assets.faceit-cdn.net/avatars/4db069d9-17af-4a69-952c-933d02f4071d_1594682286977.jpg',
+            game_id: '76561198047426023',
+            game_name: 'des0ut',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'ac71ba3c-d3d4-45e7-8be2-26aa3986867d',
+            nickname: 's1mple',
+            avatar: 'https://assets.faceit-cdn.net/avatars/ac71ba3c-d3d4-45e7-8be2-26aa3986867d_1581521810013.jpg',
+            game_id: '76561198034202275',
+            game_name: 's1',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'd0b2eeb7-8056-4282-972a-29a7a9e1f875',
+            nickname: 'Evelone',
+            avatar: 'https://assets.faceit-cdn.net/avatars/d0b2eeb7-8056-4282-972a-29a7a9e1f875_1582933742704.jpg',
+            game_id: '76561198054992990',
+            game_name: 'Evelone',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '1a339746-b913-4db5-bcf4-fd3275784594',
+            nickname: 'whiskeyo_',
+            avatar: 'https://assets.faceit-cdn.net/avatars/1a339746-b913-4db5-bcf4-fd3275784594_1550495337578.jpg',
+            game_id: '76561198029785939',
+            game_name: 'twitch.tv/whiskeyo',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '8223d717-f88a-4389-ad25-6304c5da944c',
+            nickname: '-meset-',
+            avatar: 'https://assets.faceit-cdn.net/avatars/8223d717-f88a-4389-ad25-6304c5da944c_1631796984969.jpg',
+            game_id: '76561198013911316',
+            game_name: 'Meset #USEC',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          }
+        ],
+        substitutions: 0,
+        substitutes: null
+      },
+      {
+        id: '0107d5b9-6aee-474b-93c7-ddc59d8821b5',
+        name: 'team_I0I00III00I',
+        type: '',
+        avatar: 'https://assets.faceit-cdn.net/avatars/0107d5b9-6aee-474b-93c7-ddc59d8821b5_1550882909262.jpg',
+        leader_id: '0107d5b9-6aee-474b-93c7-ddc59d8821b5',
+        co_leader_id: '',
+        roster: [
+          {
+            id: '0107d5b9-6aee-474b-93c7-ddc59d8821b5',
+            nickname: 'I0I00III00I',
+            avatar: 'https://assets.faceit-cdn.net/avatars/0107d5b9-6aee-474b-93c7-ddc59d8821b5_1550882909262.jpg',
+            game_id: '76561197976057409',
+            game_name: 'twitch.tv/I0I00III00I',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '34f641f2-9286-4b61-8abe-2da9fff602d3',
+            nickname: 'Ballerbrudi',
+            avatar: 'https://assets.faceit-cdn.net/avatars/34f641f2-9286-4b61-8abe-2da9fff602d3_1625687966275.jpg',
+            game_id: '76561198985550392',
+            game_name: 'Sabotage',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'fa9c68c2-73fd-439d-9b32-5d0d1d09b916',
+            nickname: 'davour',
+            avatar: 'https://assets.faceit-cdn.net/avatars/fa9c68c2-73fd-439d-9b32-5d0d1d09b916_1585075992438.jpg',
+            game_id: '76561198005975142',
+            game_name: '✪ davour',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '4a21105e-5704-42ca-958c-ee1cc6224ceb',
+            nickname: '1PEKABL',
+            avatar: 'https://assets.faceit-cdn.net/avatars/4a21105e-5704-42ca-958c-ee1cc6224ceb_1628548200452.jpg',
+            game_id: '76561197994154451',
+            game_name: '🦋1PEKABL🦋',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'e4003514-a13e-4e18-adce-a9fb3020b8e3',
+            nickname: 'NealSb',
+            avatar: 'https://assets.faceit-cdn.net/avatars/e4003514-a13e-4e18-adce-a9fb3020b8e3_1610129554808.jpg',
+            game_id: '76561198097819290',
+            game_name: 'HappyNeal',
+            game_skill_level: 8,
+            membership: '',
+            anticheat_required: true
+          }
+        ],
+        substitutions: 0,
+        substitutes: null
+      }
+    ],
+    created_at: '2021-09-23T20:54:03Z',
+    updated_at: '2021-09-23T20:54:52Z'
+  }
+}
+
+{
+  transaction_id: '54f8f7ea-22b4-46cf-9bb2-f0d5273ec9d4',
+  event: 'match_status_finished',
+  event_id: '8deb3688-4e29-4a06-bb6d-f01ea083afb8',
+  third_party_id: '3c967cc3-c691-4281-b0e0-fa2e271d1d43',
+  app_id: 'ff93a66e-9b97-4365-a0a5-28175c429295',
+  timestamp: '2021-09-24T08:11:43Z',
+  retry_count: 0,
+  version: 1,
+  payload: {
+    id: '1-af92cf9e-a8a8-4f03-bc44-cf113d2a68c3',
+    organizer_id: 'faceit',
+    region: 'EU',
+    game: 'csgo',
+    version: 43,
+    entity: {
+      id: 'a3c75828-7f0f-4940-adb9-994b4b389070',
+      name: 'CS:GO 5v5 PREMIUM',
+      type: 'matchmaking'
+    },
+    teams: [
+      {
+        id: 'c88ebddd-4e0f-4f8c-ada9-adebf2f307f7',
+        name: 'team_rhymeZ',
+        type: '',
+        avatar: 'https://assets.faceit-cdn.net/avatars/c88ebddd-4e0f-4f8c-ada9-adebf2f307f7_1632468453300.jpg',
+        leader_id: 'c88ebddd-4e0f-4f8c-ada9-adebf2f307f7',
+        co_leader_id: '',
+        roster: [
+          {
+            id: 'a69ca491-3f87-42db-8fed-9328f70628db',
+            nickname: '-Myst3ry-',
+            avatar: 'https://assets.faceit-cdn.net/avatars/a69ca491-3f87-42db-8fed-9328f70628db_1613405905721.jpg',
+            game_id: '76561198252259736',
+            game_name: 'MaorHAX',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'c879e0d8-327f-4ae0-894d-050ee6309a01',
+            nickname: 'Nidok1ng',
+            avatar: '',
+            game_id: '76561199019881864',
+            game_name: 'Dola',
+            game_skill_level: 6,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'c88ebddd-4e0f-4f8c-ada9-adebf2f307f7',
+            nickname: 'rhymeZ',
+            avatar: 'https://assets.faceit-cdn.net/avatars/c88ebddd-4e0f-4f8c-ada9-adebf2f307f7_1632468453300.jpg',
+            game_id: '76561198964281227',
+            game_name: 'Super horny',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '39eba3da-c487-4254-9587-3051e765eadb',
+            nickname: 'F0rt1s-',
+            avatar: 'https://assets.faceit-cdn.net/avatars/39eba3da-c487-4254-9587-3051e765eadb_1586686160058.jpg',
+            game_id: '76561198230304800',
+            game_name: 'Aldant',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'ca52fcd8-8e77-4d18-bae1-e18a92296417',
+            nickname: 'Co0kS',
+            avatar: 'https://assets.faceit-cdn.net/avatars/ca52fcd8-8e77-4d18-bae1-e18a92296417_1630578523755.jpg',
+            game_id: '76561198171399603',
+            game_name: 'CoOkS',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          }
+        ],
+        substitutions: 0,
+        substitutes: null
+      },
+      {
+        id: 'dfde0af9-98df-4e0a-a090-ad3db6dcc242',
+        name: 'team_QRUSH',
+        type: '',
+        avatar: 'https://assets.faceit-cdn.net/avatars/dfde0af9-98df-4e0a-a090-ad3db6dcc242_1571644873370.jpg',
+        leader_id: 'dfde0af9-98df-4e0a-a090-ad3db6dcc242',
+        co_leader_id: '',
+        roster: [
+          {
+            id: '1e4d582c-15f9-44c1-b23c-a2551db7197b',
+            nickname: 'pusha-',
+            avatar: 'https://assets.faceit-cdn.net/avatars/1e4d582c-15f9-44c1-b23c-a2551db7197b_1609092512711.jpg',
+            game_id: '76561198220250773',
+            game_name: 'PushA SaiyajiN',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '8ca9cdf5-bfac-4001-8ae8-8ca9e9bb2edf',
+            nickname: 'MegaRush--',
+            avatar: 'https://assets.faceit-cdn.net/avatars/8ca9cdf5-bfac-4001-8ae8-8ca9e9bb2edf_1628712188605.jpg',
+            game_id: '76561199195542477',
+            game_name: 'MegaNew',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: 'dfde0af9-98df-4e0a-a090-ad3db6dcc242',
+            nickname: 'QRUSH',
+            avatar: 'https://assets.faceit-cdn.net/avatars/dfde0af9-98df-4e0a-a090-ad3db6dcc242_1571644873370.jpg',
+            game_id: '76561198024275160',
+            game_name: 'QRUSH',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '5a70f69a-b51a-4cf3-86d9-b91ed245244a',
+            nickname: 'yar0stb',
+            avatar: 'https://assets.faceit-cdn.net/avatars/5a70f69a-b51a-4cf3-86d9-b91ed245244a_1632082589147.jpg',
+            game_id: '76561198074328018',
+            game_name: 'dAnkonia',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          },
+          {
+            id: '66431b3c-8fe8-4c3b-ad4b-2c634d70b0bb',
+            nickname: 'sssxxz',
+            avatar: 'https://assets.faceit-cdn.net/avatars/66431b3c-8fe8-4c3b-ad4b-2c634d70b0bb_1632020292636.jpg',
+            game_id: '76561199133107513',
+            game_name: 'ssssssssss',
+            game_skill_level: 10,
+            membership: '',
+            anticheat_required: true
+          }
+        ],
+        substitutions: 0,
+        substitutes: null
+      }
+    ],
+    created_at: '2021-09-24T07:31:37Z',
+    updated_at: '2021-09-24T08:11:43Z',
+    started_at: '2021-09-24T07:35:05Z',
+    finished_at: '2021-09-24T08:11:43Z'
+  }
+}
+
+i9 - mvp
+i6 - kills
+i7 - assists
+i8 - deaths
+i10 - 1 ? 'win' : 'lose'

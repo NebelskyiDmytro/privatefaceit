@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "lib": ["ES2020", "DOM"]
+  },
+  "include": [
+    "src",
+    "src/**/*.vue",
+    "src/**/*.d.ts",
+    "src/**/*.svg"
+  ]
+}

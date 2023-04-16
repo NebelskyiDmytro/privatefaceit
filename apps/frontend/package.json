@@ -1,0 +1,23 @@
+{
+  "name": "@plastylize/frontend",
+  "version": "0.0.1",
+  "scripts": {
+    "start:dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^1.9.0",
+    "animate.css": "^4.1.1",
+    "vite-svg-loader": "^2.2.0",
+    "vue": "^3.2.13",
+    "vue3-autocounter": "^1.0.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.10",
+    "vite-plugin-fonts": "^0.2.2"
+  }
+}
