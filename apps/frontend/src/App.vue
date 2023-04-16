@@ -2,31 +2,33 @@
   <div class="flex items-center justify-center h-screen" :class="show ? 'app' : ''">
     <div class="flex items-center justify-center px-96 py-96">
       <div class="inline-flex flex-col space-y-6 items-center justify-end pl-1.5 pr-0.5">
+        <transition name="nickname-fade">
+          <div class="inline-flex items-center justify-center w-full" v-if="show">
+            <div class="text-5xl font-extrabold text-center text-white">
+              {{ eventData.nickname }}
+            </div>
+          </div>
+        </transition>
         <transition name="widget-fade">
           <div class="inline-flex space-x-2 items-start justify-end w-5/6 h-16" v-if="show">
             <div class="flex space-x-6 items-center justify-end w-72 pt-1">
               <component style="width: 56px" :is="levels[eventData.lvl]" />
               <p class="w-52 h-full text-7xl font-extrabold text-center text-white current-elo">
-                <vue3-autocounter
-                  ref="counter"
-                  :startAmount="
-                    eventData.result === 'win'
-                      ? eventData.elo.current - Number(eventData.elo.diff)
-                      : eventData.elo.current + Number(eventData.elo.diff)
-                  "
-                  :endAmount="eventData.elo.current"
-                  :duration="2"
-                  :autoinit="false"
-                />
+                <vue3-autocounter ref="counter" :startAmount="
+                  eventData.result === 'win'
+                    ? eventData.elo.current - Number(eventData.elo.diff)
+                    : eventData.elo.current + Number(eventData.elo.diff)
+                " :endAmount="eventData.elo.current" :duration="2" :autoinit="false" />
               </p>
             </div>
             <div class="w-16 h-5">
-              <p class="flex-1 h-full text-2xl font-bold" :class="eventData.result === 'win' ? 'text-green-500' : 'text-red-500'">
+              <p class="flex-1 h-full text-2xl font-bold"
+                :class="eventData.result === 'win' ? 'text-green-500' : 'text-red-500'">
                 {{ eventData.result === 'win' ? '+' : '-' }}{{ eventData.elo.diff }}
               </p>
             </div>
-          </div></transition
-        >
+          </div>
+        </transition>
         <transition name="stats-fade">
           <div class="inline-flex space-x-3.5 items-center justify-end" v-if="showStats">
             <div class="inline-flex flex-col space-y-2 items-start justify-start px-2">
@@ -116,6 +118,7 @@ const levels = {
 };
 
 const eventData = reactive({
+  nickname: '',
   lvl: 10,
   result: '',
   elo: {
@@ -134,6 +137,7 @@ const counter = ref(null);
 
 sse.onmessage = (event) => {
   const data = JSON.parse(event.data);
+  eventData.nickname = data.nickname;
   eventData.lvl = data.lvl;
   eventData.elo.diff = data.elo.diff;
   eventData.elo.current = data.elo.current;
@@ -174,6 +178,7 @@ sse.onmessage = (event) => {
   animation: backInDown;
   animation-duration: 2s;
 }
+
 .widget-fade-leave-active {
   animation: backOutDown;
   animation-duration: 2s;
@@ -183,7 +188,18 @@ sse.onmessage = (event) => {
   animation: backInUp;
   animation-duration: 4s;
 }
+
 .stats-fade-leave-active {
+  animation: zoomOut;
+  animation-duration: 1.5s;
+}
+
+.nickname-fade-enter-active {
+  animation: backInDown;
+  animation-duration: 4s;
+}
+
+.nickname-fade-leave-active {
   animation: zoomOut;
   animation-duration: 1.5s;
 }
@@ -216,6 +232,7 @@ sse.onmessage = (event) => {
   color: white;
   font-weight: 100;
 }
+
 .stats div div {
   color: #bdc3c7;
   text-transform: uppercase;

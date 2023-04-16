@@ -14,7 +14,7 @@ export class WebhookController {
 
   @Get('test')
   async test() {
-    const userId = process.env.USERID || '79b3083a-347e-40f9-b62a-80c73262997a';
+    const userId = process.env.USERID || 'd216a72e-6f40-4a71-9265-4f38e48217ea';
     const request = await got(`https://api.faceit.com/stats/api/v1/stats/time/users/${userId}/games/csgo?size=30`, {
       method: 'GET',
       responseType: 'json',
