@@ -197,7 +197,7 @@ sse.onmessage = (event) => {
 }
 
 .eloDiff {
-  font-size: 250px;
+  font-size: 50px;
 }
 
 .stats-title {
