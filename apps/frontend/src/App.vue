@@ -161,7 +161,7 @@ sse.onmessage = (event) => {
 <style>
 .app {
   transition: background-color 0.6s ease 0s;
-  background: rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.90);
 }
 
 .widget {
